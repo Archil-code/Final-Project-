@@ -1,0 +1,136 @@
+.small-hero {
+    background: url('../images/slide2.jpg') no-repeat center center/cover;
+    padding: 6rem 0;
+    text-align: center;
+    color: white;
+  }
+  
+  
+  .about-details {
+    padding: 4rem 0;
+  }
+  
+  .about-details h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+  }
+  
+  .founders {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .founder-card {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: transform 0.3s ease;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  
+  .founder-card img {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .mission-values {
+    list-style: none;
+    padding: 0;
+    margin-top: 1.5rem;
+  }
+  
+  .mission-values li {
+    margin-bottom: 0.6rem;
+    font-size: 1.1rem;
+  }
+  
+  .quality-image {
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+  
+  .quality-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  @media (max-width: 1024px) {
+    .small-hero {
+      padding: 5rem 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .small-hero {
+      padding: 4rem 1rem;
+    }
+  
+    .small-hero h1 {
+      font-size: 1.8rem;
+    }
+  
+    .small-hero p {
+      font-size: 1rem;
+    }
+  
+    .founders {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .founder-card {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .about-details {
+      padding: 2rem 1rem;
+    }
+  
+    .mission-values li {
+      font-size: 1rem;
+    }
+  
+    .quality-image img {
+      max-width: 90%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .small-hero h1 {
+      font-size: 1.5rem;
+    }
+  
+    .small-hero p {
+      font-size: 0.95rem;
+    }
+  
+    .mission-values li {
+      font-size: 0.95rem;
+    }
+  
+    .founder-card img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  

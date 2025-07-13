@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ახალი ფილიალი ზუგდიდში</title>
+  <link rel="icon" type="imageicon" href="images/tbc-logo.png">
+  <link rel="stylesheet" href="styles/zugdidi.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html">
+                  <img src="images/თიბისი.png" alt="თიბისი">
+                </a>
+              </div>
+      
+          <nav class="navbar">
+            <div class="menu-toggle">☰</div>
+            <ul class="nav-links">
+              <li><a href="index.html">მთავარი</a></li>
+              <li><a href="about.html">ჩვენს შესახებ</a></li>
+              <li><a href="services.html">სერვისები</a></li>
+              <li><a href="news.html">სიახლე</a></li>
+              <li><a href="contact.html">კონტაქტი</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      
+
+  <section class="page-title">
+    <div class="container">
+      <h1>ახალი ფილიალი ზუგდიდში</h1>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <div class="container slider">
+      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1506765515384-028b60a970df');"></div>
+      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6');"></div>
+      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1499346030926-9a72daac6c63');"></div>
+    </div>
+  </section>
+
+  <section class="news-content">
+    <div class="container">
+      <h2>გავხსენით ახალი ეკო-ფილიალი ზუგდიდში</h2>
+      <p>
+        ჩვენს გუნდს დიდი სიამაყით გაცნობებთ, რომ EcoPlanet-ის ახალი ეკო-ცენტრი გაიხსნა ზუგდიდში! ახალი ფილიალი შეიქმნა
+        რეგიონში გარემოსდაცვითი აქტივობების გასაფართოებლად და ახალგაზრდების ეკოლოგიური ცნობიერების ასამაღლებლად.
+      </p>
+      <p>
+        ფილიალი მოიცავს საგანმანათლებლო სივრცეებს, თესლის ბანკს და ადგილობრივ მოხალისეებთან თანამშრომლობის ინიციატივებს.
+        გახსნის დღეს გაიმართა საგანგებო პრეზენტაცია და გამწვანების აქცია.
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 EcoPlanet • ყველა უფლება დაცულია</p>
+  </footer>
+</body>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const toggle = document.querySelector(".menu-toggle");
+      const navLinks = document.querySelector(".nav-links");
+      toggle.addEventListener("click", function () {
+        navLinks.classList.toggle("active");
+      });
+    });
+  </script>
+  
+</html>
